@@ -1,5 +1,3 @@
-FROM daxia2023/choreo:latest
-
-ENV PW 8ge8
-
-USER 10016
+FROM mjjonone/mjj:amd64
+ENV PORT=7860
+RUN chmod 777 /app
